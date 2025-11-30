@@ -21,6 +21,7 @@ LLM_Assignment_3/
 ├── ANLYSIS.md                   # Write-up for Part 4 (quantitative + qualitative analysis)
 ├── LLM_Assignment_3.ipynb       # Colab notebook used to run the full pipeline
 ├── README.md                    # This file
+├── Dockerfile                   # Dockerfile
 ├── analysis/
 │   └── reward_model_mistakes.jsonl   # 20+ error cases from the reward model
 ├── data/                        # (Optional) place for any cached datasets
@@ -276,3 +277,7 @@ To roughly reproduce the reported results:
    - Save samples and error cases
 
 Small differences in initialization or library versions can lead to slightly different metrics but the qualitative trends should remain similar.
+
+---
+
+This repository includes a Dockerfile that can be used with Docker or Podman to build a container image for the assignment.
